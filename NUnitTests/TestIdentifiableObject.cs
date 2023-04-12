@@ -8,7 +8,7 @@ namespace NUnitTests
     [TestFixture]
     public class TestIdentifiableObject
     {
-        private IdentifiableObject _testableIdentifiableObject;
+        private IdentifiableObject? _testableIdentifiableObject;
 
         [SetUp]
         public void SetUp()
@@ -25,7 +25,7 @@ namespace NUnitTests
             // the request matches on of the object's identifier.
 
             // Changed: Remove the extra boolean variable
-            Assert.IsTrue(_testableIdentifiableObject.AreYou(name));
+            Assert.IsTrue(_testableIdentifiableObject!.AreYou(name));
         }
 
         [TestCase("wilma")]
@@ -36,7 +36,7 @@ namespace NUnitTests
             // the request matches one of the object's identifiers.
 
             // Changed: Remove the extra boolean variable
-            Assert.IsFalse(_testableIdentifiableObject.AreYou(name));
+            Assert.IsFalse(_testableIdentifiableObject!.AreYou(name));
         }
 
         [TestCase("FRED")]
@@ -46,7 +46,7 @@ namespace NUnitTests
             // Check that it responds "True" to the "Are You" message where 
             // the request matches one of the object's identifiers where 
             // there is a mismatch in case.
-            Assert.IsTrue(_testableIdentifiableObject.AreYou(name));
+            Assert.IsTrue(_testableIdentifiableObject!.AreYou(name));
         }
 
         [Test]
@@ -54,7 +54,7 @@ namespace NUnitTests
         {
             // Check that the first id returns the first identifier in the
             // list of identifier.
-            Assert.That(_testableIdentifiableObject.FirstId, Is.EqualTo("fred"));
+            Assert.That(_testableIdentifiableObject!.FirstId, Is.EqualTo("fred"));
         }
 
         [Test]
@@ -70,7 +70,7 @@ namespace NUnitTests
         public void TestAddId()
         {
             // Check that you can add identifiers to the object
-            _testableIdentifiableObject.AddIdentifier("wilma");
+            _testableIdentifiableObject!.AddIdentifier("wilma");
             Assert.IsTrue(_testableIdentifiableObject.AreYou("wilma"));
         }
     }
