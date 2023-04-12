@@ -13,3 +13,18 @@ d:\Swinburne\OOP\Code\Swinburne Adventure\SwinAdventure\obj\Debug\net6.0\refint\
 d:\Swinburne\OOP\Code\Swinburne Adventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.pdb
 d:\Swinburne\OOP\Code\Swinburne Adventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.genruntimeconfig.cache
 d:\Swinburne\OOP\Code\Swinburne Adventure\SwinAdventure\obj\Debug\net6.0\ref\SwinAdventure.dll
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\bin\Debug\net6.0\SwinAdventure.exe
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\bin\Debug\net6.0\SwinAdventure.deps.json
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\bin\Debug\net6.0\SwinAdventure.runtimeconfig.json
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\bin\Debug\net6.0\SwinAdventure.dll
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\bin\Debug\net6.0\SwinAdventure.pdb
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.csproj.AssemblyReference.cache
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.GeneratedMSBuildEditorConfig.editorconfig
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.AssemblyInfoInputs.cache
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.AssemblyInfo.cs
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.csproj.CoreCompileInputs.cache
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.dll
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\refint\SwinAdventure.dll
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.pdb
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\SwinAdventure.genruntimeconfig.cache
+d:\Swinburne\OOP\Code\SwinburneAdventure\SwinAdventure\obj\Debug\net6.0\ref\SwinAdventure.dll

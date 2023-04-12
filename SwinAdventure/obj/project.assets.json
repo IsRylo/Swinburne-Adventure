@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj",
+      "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
       "projectName": "SwinAdventure",
-      "projectPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj",
+      "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\obj\\",
+      "outputPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\NUnitTests\\NUnitTests.csproj": {}
+    "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj": {}
   },
   "projects": {
-    "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\NUnitTests\\NUnitTests.csproj": {
+    "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\NUnitTests\\NUnitTests.csproj",
+        "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
         "projectName": "NUnitTests",
-        "projectPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\NUnitTests\\NUnitTests.csproj",
+        "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\NUnitTests\\obj\\",
+        "outputPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj": {
-                "projectPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj"
+              "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
+                "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj": {
+    "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj",
+        "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
         "projectName": "SwinAdventure",
-        "projectPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\SwinAdventure.csproj",
+        "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Swinburne\\OOP\\Code\\Swinburne Adventure\\SwinAdventure\\obj\\",
+        "outputPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
