@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SwinAdventure
 {
-    public class Player : GameObject
+    public class Player : GameObject, IHaveInventory
     {
         private Inventory _inventory;
 

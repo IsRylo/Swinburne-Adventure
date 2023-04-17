@@ -8,7 +8,7 @@ namespace SwinAdventure
     // The bag uses the composite pattern
     // Application: when a class has property and methods of 
     //  a collection of object, but is still treated as an derivate of the same class 
-    public class Bag : Item
+    public class Bag : Item, IHaveInventory
     {
         private Inventory _inventory;
 
