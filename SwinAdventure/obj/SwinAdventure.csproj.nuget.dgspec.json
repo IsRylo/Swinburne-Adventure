@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {}
+    "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {}
   },
   "projects": {
-    "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
+    "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
+        "projectUniqueName": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
         "projectName": "SwinAdventure",
-        "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
+        "projectPath": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\obj\\",
+        "outputPath": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

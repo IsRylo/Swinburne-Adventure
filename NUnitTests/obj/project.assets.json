@@ -3989,11 +3989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
+      "projectUniqueName": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
       "projectName": "NUnitTests",
-      "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
+      "projectPath": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\NUnitTests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\obj\\",
+      "outputPath": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\NUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4008,8 +4008,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
-              "projectPath": "d:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj"
+            "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj": {
+              "projectPath": "D:\\Swinburne\\OOP\\Code\\SwinburneAdventure\\SwinAdventure\\SwinAdventure.csproj"
             }
           }
         }
