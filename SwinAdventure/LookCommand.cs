@@ -18,13 +18,10 @@ namespace SwinAdventure
                 return "I don't know how to look like that";
             if (text[0] != "look") 
                 return "Error in look input";
-
             if (text[1] != "at") 
                 return "What do you want to look at?";
-
             if (count == 3)
                 return LookAtIn(text[2], p);
-
             if (text[3] != "in")
                 return "What do you want to look in?";
 
