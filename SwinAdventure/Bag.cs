@@ -28,7 +28,7 @@ namespace SwinAdventure
             }
         }
 
-        public GameObject? Locate(string id)
+        public GameObject Locate(string id)
         {
             if (AreYou(id)) return this;
             else return Inventory.Fetch(id);
