@@ -49,7 +49,7 @@ namespace SwinAdventure
         }
 
         // Locates an item by id (using AreYou) and returns it
-        public Item? Fetch(String id) // Added ? to declare as nullable
+        public Item Fetch(String id)
         {
             foreach(Item itm in _items)
                 if (itm.AreYou(id)) return itm;

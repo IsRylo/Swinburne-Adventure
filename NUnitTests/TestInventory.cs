@@ -9,7 +9,7 @@ namespace NUnitTests
 {
     public class TestInventory
     {
-        private Inventory? _testInventory;
+        private Inventory _testInventory;
 
         [SetUp]
         public void Setup()

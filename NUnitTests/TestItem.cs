@@ -10,7 +10,7 @@ namespace NUnitTests
     [TestFixture]
     public class TestItem
     {
-        private Item? _testItem;
+        private Item _testItem;
         [SetUp]
         public void Setup()
         {
