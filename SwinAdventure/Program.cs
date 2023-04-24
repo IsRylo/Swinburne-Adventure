@@ -14,9 +14,9 @@ namespace SwinAdventure
             // Get the player's naem and description from the user, and
             // use these details to create a Player object.
             Console.Write("Please enter player name: ");
-            string name = Console.ReadLine();
+            string name = Console.ReadLine()!;
             Console.Write("Please enter player description: ");
-            string description = Console.ReadLine();
+            string description = Console.ReadLine()!;
 
             Player p1 = new Player(name, description);
 
@@ -37,14 +37,14 @@ namespace SwinAdventure
             while (true)
             {
                 Console.Write("Command -> ");
-                text = Console.ReadLine().ToLower().Split("");
+                text = Console.ReadLine()!.ToLower().Split(" ");
                 Command command;
                     
                 switch (text[0])
                 {
                     case "look":
                         command = new LookCommand();
-                        command.Execute(p1, text);
+                        Console.WriteLine(command.Execute(p1, text));
                         break;
                     case "quit":
                         return;
