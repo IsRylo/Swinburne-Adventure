@@ -40,16 +40,16 @@ namespace SwinAdventure
         }
 
         // or removed by id using Take
-        public Item? Take(String id)
+        public Item Take(String id)
         {
-            Item? chosenItem = Fetch(id);
+            Item chosenItem = Fetch(id);
             if (chosenItem != null)
                 _items.Remove(chosenItem);
             return chosenItem;
         }
 
         // Locates an item by id (using AreYou) and returns it
-        public Item? Fetch(String id) // Added ? to declare as nullable
+        public Item Fetch(String id) // Added ? to declare as nullable
         {
             foreach(Item itm in _items)
                 if (itm.AreYou(id)) return itm;

@@ -36,7 +36,7 @@ namespace SwinAdventure
         // Finds a GameObject somewhere around the player. At this stage that 
         // includes the player themselves, or an item the player has in their 
         // inventory
-        public GameObject? Locate(string id)
+        public GameObject Locate(string id)
         {
             if (AreYou(id)) return this;
             return _inventory.Fetch(id);

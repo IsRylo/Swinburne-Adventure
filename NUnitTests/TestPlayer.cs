@@ -9,14 +9,15 @@ namespace NUnitTests
 {
     public class TestPlayer
     {
-        private Player? _testPlayer; 
+        private Player _testPlayer; 
+        private Item _testItem;
 
         [SetUp]
         public void Setup()
         {
             _testPlayer = new Player("Loysing", "A new programmer learning OOP!");
-            _testPlayer.Inventory.Put(new Item(new string[] {"sword", "blade"}, "a bronze sword", "A starter weapon"));
-            _testPlayer.Inventory.Put(new Item(new string[] {"shovel", "spade"}, "a shovel", "This is a might fine ... "));
+            _testItem = new Item(new string[] {"sword", "blade"}, "a bronze sword", "A starter weapon");
+            _testPlayer.Inventory.Put(_testItem);
         }
 
         // The player responds correctly to "Are You" requests based on
@@ -39,11 +40,11 @@ namespace NUnitTests
 
         // The player can locate items in its inventory, this returns the
         // player has and the item remains in the player's inventory.
-        [TestCase("me", ExpectedResult = true)]
-        [TestCase("inventory", ExpectedResult = true)]
-        public bool TestPlayerLocatesItself(string idents)
+        [TestCase("me")]
+        [TestCase("inventory")]
+        public void TestPlayerLocatesItself(string idents)
         {
-            return _testPlayer!.Locate(idents) == _testPlayer;
+            Assert.That(_testPlayer.Locate(idents), Is.EqualTo(_testPlayer));
         }
 
         // The player returns null/nil object if asked to locate something
@@ -60,7 +61,7 @@ namespace NUnitTests
         public void TestPlayerFullDescription()
         {
             Assert.That(_testPlayer!.FullDescription, 
-                Is.EqualTo("You are Loysing, A new programmer learning OOP!.\nYou are carrying:\n\ta bronze sword (sword)\n\ta shovel (shovel)\n"));
+                Is.EqualTo("You are Loysing, A new programmer learning OOP!.\nYou are carrying:\n\ta bronze sword (sword)\n"));
         }
     }
 }
