@@ -1,7 +1,7 @@
-NUnitTests\bin\.
-NUnitTests\obj\.
-SwinAdventure\bin\.
-SwinAdventure\obj\.
+NUnitTests\bin\
+NUnitTests\obj\
+SwinAdventure\bin\
+SwinAdventure\obj\
 
 NUnitTests\bin\*
 NUnitTests\obj\*
