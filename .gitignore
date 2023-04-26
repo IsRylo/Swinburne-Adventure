@@ -1,3 +1,6 @@
+\*\bin
+\*\lib
+\*\obj
 NUnitTests\bin\.
 NUnitTests\obj\.
 SwinAdventure\bin\.
@@ -8,7 +11,7 @@ NUnitTests\obj\*
 SwinAdventure\bin\*
 SwinAdventure\obj\*
 
-.dll
+*.dll
 .pdb
 *.dll
 *.pdb
