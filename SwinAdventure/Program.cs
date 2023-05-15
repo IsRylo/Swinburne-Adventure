@@ -7,6 +7,7 @@ namespace SwinAdventure
         static void Main(string[] args)
         {   
             string[] text;
+            Command command = new LookCommand();;
 
             Console.WriteLine("Welcome to Swin Adventure!");
             Console.WriteLine("---------------------------");
@@ -38,12 +39,10 @@ namespace SwinAdventure
             {
                 Console.Write("Command -> ");
                 text = Console.ReadLine()!.ToLower().Split(" ");
-                Command command;
                     
                 switch (text[0])
                 {
                     case "look":
-                        command = new LookCommand();
                         Console.WriteLine(command.Execute(p1, text));
                         break;
                     case "quit":
