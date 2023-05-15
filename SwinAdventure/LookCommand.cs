@@ -25,7 +25,7 @@ namespace SwinAdventure
             if (text[3] != "in")
                 return "What do you want to look in?";
 
-            IHaveInventory? container = FetchContainer(p, text[4]);
+            IHaveInventory container = FetchContainer(p, text[4]);
 
             if (container == null)
                 return $"I can't find the {text[4]}";
@@ -33,7 +33,7 @@ namespace SwinAdventure
             return LookAtIn(text[2], container);
         }
 
-        private IHaveInventory? FetchContainer(Player p, string containerId)
+        private IHaveInventory FetchContainer(Player p, string containerId)
         {
             return p.Locate(containerId) as IHaveInventory;
         }
@@ -41,7 +41,7 @@ namespace SwinAdventure
         private string LookAtIn(string thingId, IHaveInventory container)
         {
             if (container.Locate(thingId) != null)
-                return container.Locate(thingId)!.FullDescription;
+                return container.Locate(thingId).FullDescription;
             return $"I can't find the {thingId} in the {container.Name}";
         }
     }

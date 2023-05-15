@@ -7,6 +7,7 @@ namespace SwinAdventure
         static void Main(string[] args)
         {   
             string[] text;
+            Command command;
 
             Console.WriteLine("Welcome to Swin Adventure!");
             Console.WriteLine("---------------------------");
@@ -38,7 +39,6 @@ namespace SwinAdventure
             {
                 Console.Write("Command -> ");
                 text = Console.ReadLine()!.ToLower().Split(" ");
-                Command command;
                     
                 switch (text[0])
                 {
